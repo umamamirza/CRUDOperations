@@ -25,7 +25,7 @@ include('dbConnection.php');
         </div>
         <div class="mb-3">
             <label>Password:</label>
-            <input type="text" name="password"  id="password" class="form-control" required>
+            <input type="password" name="password"  id="password" class="form-control" required>
         </div>
         <button type="submit" id="saveData" class="btn btn-outline-primary">Save</button>
         <a href="index.php" class="btn btn-outline-dark">Back</a>
@@ -35,7 +35,7 @@ include('dbConnection.php');
 </html>
 
 <script>
-
+  
 
 $(document).ready(function() {
     $("#saveData").click(function() {
