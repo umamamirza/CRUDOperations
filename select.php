@@ -1,6 +1,5 @@
 <?php
 
-
 include 'dbConnection.php';
 header('Content-Type: application/json');
 

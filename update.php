@@ -1,7 +1,6 @@
 <?php
 include 'dbConnection.php';
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $id = isset($_POST['id']) ? intval($_POST['id']) : 0;
     $name = $_POST['name'];

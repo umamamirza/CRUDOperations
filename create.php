@@ -1,6 +1,6 @@
 <?php  
-include('dbConnection.php');
 
+include('dbConnection.php');
 ?>
     <!DOCTYPE html>
 <html lang="en">
@@ -29,7 +29,7 @@ include('dbConnection.php');
         </div>
         <button type="submit" id="saveData" class="btn btn-outline-primary">Save</button>
         <a href="index.php" class="btn btn-outline-dark">Back</a>
-        
+
     </form>
 </body>
 </html>

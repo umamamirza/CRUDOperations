@@ -1,4 +1,5 @@
 <?php
+
 include('dbConnection.php');
 $sql = "SELECT * FROM records"; 
 $result = $conn->query($sql);
